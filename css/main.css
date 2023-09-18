@@ -8,6 +8,7 @@ body {
 
 .header { 
     background-color: #ffa0a6;
+    width: 100%;
 }
 
 .header__logo {
@@ -77,12 +78,31 @@ a.login-box__forgot-password-enlace {
     font-size: 17px;
     margin-top: 1rem;
     margin-left: 30%;
+    background-color: #ffa0a6;
+    border-style: none;
+    border-radius: 12px;
   }
-  .methods {
+.boton__login-text:hover{
+    color: #fbf2f1;
+  }
+.methods {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
 }
-.other-methods{
+.other-methods {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.other-methods__google {
+ height: 2rem;
+}
+.other-methods__apple {
+    width: 2rem;
+    padding-left: 2rem;
+}
+img.other-methods__fb {
+    width: 2.5rem;
+    height: 2.5rem;
 }
