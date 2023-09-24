@@ -166,3 +166,47 @@ img.other-methods__fb {
       text-decoration: none;
       font-size: 1rem;
   }
+  .settings-box {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 15px 25px rgba(141, 96, 96, 0.6);
+    border-radius: 10px;
+    background-color: #fbf2f1;
+  }
+  .settings-box__titulo {
+      margin: 0 0 10px 0;
+      padding: 0;
+      text-align: center;
+      font-size: 31px;
+  }
+  .settings-box__subtitulo {
+      margin: 0 0 35px 0;
+      padding: 0;
+      text-align: center;
+  }
+  .settings-box__form {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 40px;
+  }
+  .settings-box__register-info{
+      position: relative;
+  }
+  .settings-box__user-info {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 16px;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      outline: none;
+      background: transparent;
+      font-size: 26px
+  }
+  .settings-box__enlace{
+    text-decoration: none;
+  }
