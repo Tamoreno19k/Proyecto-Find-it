@@ -69,7 +69,7 @@ body {
     justify-content: end;
     font-style: italic;
 }
-a.login-box__forgot-password-enlace {
+.login-box__forgot-password-enlace {
     text-decoration: none;
     font-size: 1rem;
 }
@@ -77,14 +77,17 @@ a.login-box__forgot-password-enlace {
     padding: 10px 20px;
     font-size: 17px;
     margin-top: 1rem;
-    margin-left: 30%;
+    margin-left: 33%;
     background-color: #ffa0a6;
     border-style: none;
     border-radius: 12px;
   }
-.boton__login-text:hover{
-    color: #fbf2f1;
+.boton:hover{
+    background-color: #e46a5f;
   }
+.boton__text-enlance{
+    text-decoration: none;
+}  
 .methods {
     display: flex;
     justify-content: center;
@@ -106,3 +109,60 @@ img.other-methods__fb {
     width: 2.5rem;
     height: 2.5rem;
 }
+.other-methods__sign-in{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 4rem 0 0 0;
+    font-size: small;
+}
+.other-methods__enlace-sign-in{
+    text-decoration: none;
+}
+.register-box {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 15px 25px rgba(141, 96, 96, 0.6);
+    border-radius: 10px;
+    background-color: #fbf2f1;
+  }
+  .register-box__titulo {
+      margin: 0 0 10px 0;
+      padding: 0;
+      text-align: center;
+      font-size: 31px;
+  }
+  .register-box__subtitulo {
+      margin: 0 0 35px 0;
+      padding: 0;
+      text-align: center;
+  }
+  .register-box__form {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 40px;
+  }
+  .register-box__register-info{
+      position: relative;
+  }
+  .register-box__user-info {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 16px;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      outline: none;
+      background: transparent;
+  }
+  .boton__register-cancel-enlace {
+      margin-top: .5rem;
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 1rem;
+  }
