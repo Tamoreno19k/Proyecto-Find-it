@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in</title>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&family=Red+Hat+Display:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <header class="header" >
-        <a class="header__link" href="#"> <img class="header__logo" src="/images/logo.jpg" alt="logo"> </a>
+    <header class="title">
+        <img class="title__img" src="/images/find-it.png" alt="find-it">
+        <h1 class="title__slogan">Find, Get, Enjoy!</h1>
     </header>
-    <main >
+    <main class="main" >
         <section class="login-box" >
         <h1 class="login-box__titulo">Bienvenido</h1>
         <p class="login-box__subtitulo" > ¡Te extrañamos! </p>
@@ -19,15 +24,15 @@
             <input class="login-box__user-name" type="text" placeholder="Usuario" required>
         </div>
         <div class="login-box__login-info" >
-            <input class="login-box__password" type="text" placeholder="Contraseña"required>
+            <input class="login-box__password" type="password" placeholder="Contraseña"required>
         </div>
-        </form>
         <div class="login-box__forgot-password" ><a class="login-box__forgot-password-enlace" 
             href="#">¿Olvidaste tu contraseña?</a>
         </div>
-        <button type="submit" class="boton boton:hover">
-            <span class="boton__text-span"><a class="boton__text-enlance" href="#">Iniciar Sesión</a></span>
-        </button>       
+        <input type="reset" value='Iniciar Sesión' class="boton boton:hover"><!-- el reset es temportal-->
+            <!-- <span class="boton__text-span"><a class="boton__text-enlance" href="#"></a></span> -->
+        </input> 
+        </form>      
         <div class="methods"> <p class="methods__text"> O Inicia Sesión con: </p>
         </div>
         <div  class="other-methods" >

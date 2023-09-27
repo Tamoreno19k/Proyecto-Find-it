@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign in</title>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&family=Red+Hat+Display:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <header class="header" >
-        <a class="header__link" href="#"> <img class="header__logo" src="/images/logo.jpg" alt="logo"> </a>
+    <header class="title">
+        <img class="title__img" src="/images/find-it.png" alt="find-it">
+        <h1 class="title__slogan">Find, Get, Enjoy!</h1>
     </header>
-    <main >
+    <main class="main" >
         <section class="register-box" >
         <h1 class="register-box__titulo">Registro</h1>
         <p class="register-box__subtitulo" >¡Gracias por Registrarte!</p>
@@ -19,15 +24,16 @@
             <input class="register-box__user-info" type="text" placeholder="Nombres" required>
             <input class="register-box__user-info" type="text" placeholder="Apellidos" required>
             <input class="register-box__user-info" type="text" placeholder="Usuario" required>
-            <input class="register-box__user-info" type="text" placeholder="Contraseña" required>
-            <input class="register-box__user-info" type="text" placeholder="Repetir Contraseña" required>
-            <input class="register-box__user-info" type="text" placeholder="Correo" required>
-            <input class="register-box__user-info" type="text" placeholder="Celular" required>
-        </div>
+            <input class="register-box__user-info" type="password" placeholder="Contraseña" required>
+            <input class="register-box__user-info" type="password" placeholder="Repetir Contraseña" required>
+            <input class="register-box__user-info" type="email" placeholder="Correo" required>
+            <input class="register-box__user-info" type="tel" placeholder="Celular" required>
+        </div>      
         </form>
-        <button type="submit" class="boton">
-            <span class="boton__text-span"><a class="boton__text-enlance boton:hover" href="#">Registrarse</a></span>
-        </button>       
+        <form class="boton-register" action="#"><input type="reset" value="Registrarse" class="boton"> <!--el reset es temporal-->
+        <!-- <span class="boton__text-span"><a class="boton__text-enlance boton:hover" href="#"></a></span> -->
+        </input> 
+        </form  >
         <div class="boton__register-cancel"> <a class="boton__register-cancel-enlace" href="#">Cancelar</a></div>
         <div class="methods"> <p class="methods__text"> O Registrate con: </p>
         </div>
