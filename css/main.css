@@ -5,6 +5,7 @@ height: 100%;
 body {
     margin: 0;
     padding: 0;
+    background-color: #FFF9F7;
 }
 .title {
     display: flex;
@@ -28,7 +29,7 @@ body {
 .login-box {
   width: 400px;
   padding: 40px;
-  box-shadow: 0 15px 25px rgba(141, 96, 96, 0.6);
+  box-shadow: 0px 1px 25px rgba(141, 96, 96, 0.6);
   border-radius: 10px;
   background-color: #fbf2f1;
 }
@@ -85,6 +86,18 @@ body {
     text-decoration: none;
     font-size: .8rem;
 }
+.boton-login{
+    padding: 10px 20px;
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-left: 30%;
+    background-color: #ffa0a6;
+    border-style: none;
+    border-radius: 12px;
+    font-family: 'Red Hat Display', sans-serif;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+  }
 .boton{
     padding: 10px 20px;
     font-size: 17px;
@@ -94,8 +107,13 @@ body {
     border-style: none;
     border-radius: 12px;
     font-family: 'Red Hat Display', sans-serif;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
   }
 .boton:hover{
+    background-color: #e46a5f;
+  }
+.boton-login:hover{
     background-color: #e46a5f;
   }
 .boton__text-enlance{
@@ -137,7 +155,7 @@ img.other-methods__fb {
 .register-box {
     width: 400px;
     padding: 40px;
-    box-shadow: 0 15px 25px rgba(141, 96, 96, 0.6);
+    box-shadow: 0px 1px 25px rgba(141, 96, 96, 0.6);
     border-radius: 10px;
     background-color: #fbf2f1;
     
@@ -188,9 +206,9 @@ img.other-methods__fb {
       font-family: 'Red Hat Display', sans-serif;
   }
   .settings-box {
-    width: 400px;
+    width: 375px;
     padding: 40px;
-    box-shadow: 0 15px 25px rgba(141, 96, 96, 0.6);
+    box-shadow: 0px 1px 25px rgba(141, 96, 96, 0.6);
     border-radius: 10px;
     background-color: #fbf2f1;
   }
@@ -208,17 +226,20 @@ img.other-methods__fb {
       margin-top: 40px;
   }
   .settings-box__user-info {
-      width: 100%;
-      padding: 10px 0;
-      font-size: 16px;
-      margin-bottom: 30px;
-      border: none;
-      border-bottom: 1px solid #fff;
-      outline: none;
-      background: transparent;
-      font-size: 19px;
-      font-family: 'Red Hat Display', sans-serif;
-  }
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    font-size: 19px;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
   .settings-box__settings-info {
     display: flex;
     flex-direction: column;
@@ -227,6 +248,11 @@ img.other-methods__fb {
 }
   .settings-box__enlace{
     text-decoration: none;
+  }
+  .settings-box__user-info:hover{
+    background-color: #f8e4e2;
+    transition: all 0.7s ease-in-out;
+    border-radius: 20px;
   }
   .nav {
     /* position: fixed; */
@@ -242,9 +268,6 @@ img.other-methods__fb {
     padding: 0;
     /* margin-right: 17px; */
     gap: 135px;
-}
-li{
-    margin-left: 12px;
 }
 .nav__menu-img {
     margin: 0;
